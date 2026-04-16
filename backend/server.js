@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://nvyc-questions.vercel.app/"
+  origin: "https://nvyc-questions.vercel.app"
 }));
 app.use(express.json());
 
